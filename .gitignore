@@ -1,0 +1,8 @@
+.venv
+*.pyc
+*.DS_Store
+*.egg*
+/dist/
+/.idea
+.ruff_cache
+*__pycache__
