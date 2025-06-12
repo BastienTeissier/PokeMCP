@@ -6,3 +6,9 @@ check:
 
 check-fix:
 	uv run ruff check --fix && uv run ruff check --select I --fix
+
+start_fast_mcp:
+	uv run main.py
+
+start-api:
+	uv run fastapi dev api.py
