@@ -1,5 +1,15 @@
 # PokeMCP
 
+A Pokemon MCP (Model Context Protocol) server with Supabase authentication integration.
+
+## Features
+
+- 🔥 **Pokemon Data Tools**: Fetch Pokemon information, type effectiveness, and weaknesses
+- 🔐 **Supabase Authentication**: Secure user authentication with JWT tokens
+- 🤖 **AI-Powered Chat**: Interact with Pokemon data through natural language
+- 🚀 **FastMCP Integration**: Built on FastMCP for high performance
+- 🎯 **Multiple Transports**: Support for stdio and SSE (Server-Sent Events)
+
 ## Installation
 
 1. [Install uv](https://docs.astral.sh/uv/getting-started/installation/)
