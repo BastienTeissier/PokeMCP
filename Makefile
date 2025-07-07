@@ -15,3 +15,9 @@ start-api:
 
 inspector:
 	npx @modelcontextprotocol/inspector
+
+make-migration:
+	uv run alembic revision --autogenerate -m "$(NAME)"
+
+migrate:
+	uv run alembic upgrade head
