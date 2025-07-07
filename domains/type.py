@@ -1,4 +1,4 @@
-from core.api_client import fetch_pokeapi_data
+from domains.poke_api_client import fetch_pokeapi_data
 
 
 def parse_type_data(data: dict) -> dict:
