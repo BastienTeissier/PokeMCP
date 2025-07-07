@@ -11,7 +11,7 @@ start_fast_mcp:
 	uv run main.py
 
 start-api:
-	uv run fastapi dev api.py
+	uv run server.py
 
 inspector:
 	npx @modelcontextprotocol/inspector
