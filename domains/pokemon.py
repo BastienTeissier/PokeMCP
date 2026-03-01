@@ -1,4 +1,4 @@
-from core.api_client import fetch_pokeapi_data
+from domains.poke_api_client import fetch_pokeapi_data
 
 
 async def fetch_pokemon_data(pokemon_name: str) -> dict:
